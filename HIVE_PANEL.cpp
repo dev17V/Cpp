@@ -145,24 +145,3 @@ int main() {
 	toolMenu();
 	return 0;	
 }
-
-
-
-//#include <WS2tcpip.h>
-//#pragma omment (lib, "ws2_32.lib")
-
-
-
-
-mut ip := os.input("")
-mut cport := os.input("")
-mut timev := os.input("TIME: ")
-mut methodx := os.input("METHOD: ")
-
-ip = host
-cport = port
-timev = time
-methodx = method
-
-blah := http.get("http://api.php") + host + port + time + method
- 
